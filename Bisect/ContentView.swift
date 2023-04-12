@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     
     @State private var alertShowed: Bool = false
-    @State private var selectedTab: Int = 1
+    @State private var selectedTab: Int = 0
     
     init() {
         UITabBar.appearance().backgroundColor = .systemBackground
