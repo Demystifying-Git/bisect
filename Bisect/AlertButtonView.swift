@@ -13,7 +13,7 @@ struct AlertButtonView: View {
     
     var body: some View {
         Button(action: {
-            isPresented.toggle()
+            // isPresented.toggle()
         }) {
             Text("THE BUTTON")
                 .foregroundColor(.white)
