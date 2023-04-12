@@ -13,12 +13,12 @@ struct AlertButtonView: View {
     
     var body: some View {
         Button(action: {
-            isPresented.toggle()
+            // isPresented.toggle()
         }) {
             Text("THE BUTTON")
                 .foregroundColor(.white)
                 .padding()
-                .background(Color.init(uiColor: .systemBlue))
+                .background(Color.init(uiColor: .systemGreen))
                 .cornerRadius(20)
                 .shadow(radius: 5, y: 8)
         }

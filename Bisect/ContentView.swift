@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     
     @State private var alertShowed: Bool = false
-    @State private var selectedTab: Int = 1
+    @State private var selectedTab: Int = 0
     
     init() {
         UITabBar.appearance().backgroundColor = .systemBackground
@@ -54,7 +54,7 @@ struct ContentView: View {
                 Text("Info")
                 Image(systemName: "info.circle")
             }.tag(1)
-        }
+        }.tint(.init(uiColor: .systemGreen))
         
     }
 }
