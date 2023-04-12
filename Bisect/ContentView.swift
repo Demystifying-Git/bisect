@@ -41,8 +41,12 @@ struct ContentView: View {
             NavigationView {
                 List {
                     Section {
-                        Text("This is an example app that shows how git bisect works")
+                        Text("This is an example app that shows how `git bisect` works")
                     } footer: { Text("Git is good!") }
+                    
+                    Section {
+                        Text("`git bisect` is a command that allows you to efficiently and automatically find the specific commit in a Git repository that introduced a bug or caused a regression.")
+                    } header: { Text ("What is `git bisect`?")}
                 }
                 .navigationTitle("Info")
             }
