@@ -16,6 +16,7 @@ struct AlertButtonView: View {
             // isPresented.toggle()
         }) {
             Text("THE BUTTON")
+                .fontWeight(.bold)
                 .foregroundColor(.white)
                 .padding()
                 .background(Color.init(uiColor: .systemGreen))
