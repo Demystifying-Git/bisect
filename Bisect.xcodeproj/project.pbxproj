@@ -11,6 +11,7 @@
 		A9194A2629E74FAC006C7C13 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9194A2529E74FAC006C7C13 /* ContentView.swift */; };
 		A9194A2829E74FAD006C7C13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9194A2729E74FAD006C7C13 /* Assets.xcassets */; };
 		A9194A2B29E74FAD006C7C13 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9194A2A29E74FAD006C7C13 /* Preview Assets.xcassets */; };
+		A9B7544C29E7523100A54774 /* AlertButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B7544B29E7523100A54774 /* AlertButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		A9194A2529E74FAC006C7C13 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A9194A2729E74FAD006C7C13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9194A2A29E74FAD006C7C13 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A9B7544B29E7523100A54774 /* AlertButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				A9194A2329E74FAC006C7C13 /* BisectApp.swift */,
+				A9B7544B29E7523100A54774 /* AlertButtonView.swift */,
 				A9194A2529E74FAC006C7C13 /* ContentView.swift */,
 				A9194A2729E74FAD006C7C13 /* Assets.xcassets */,
 				A9194A2929E74FAD006C7C13 /* Preview Content */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9194A2629E74FAC006C7C13 /* ContentView.swift in Sources */,
+				A9B7544C29E7523100A54774 /* AlertButtonView.swift in Sources */,
 				A9194A2429E74FAC006C7C13 /* BisectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
