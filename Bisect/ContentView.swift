@@ -12,7 +12,21 @@ struct ContentView: View {
     @State private var alertShowed: Bool = false
     
     var body: some View {
-        AlertButtonView(isPresented: $alertShowed)
+        NavigationView {
+            GeometryReader { geo in
+                ScrollView {
+                    VStack {
+                        AlertButtonView(isPresented: $alertShowed)
+                    }
+                    .frame(
+                        width: geo.frame(in: .local).width,
+                        height: geo.frame(in: .local).height,
+                        alignment: .center
+                    )
+                }
+            }
+            .navigationTitle("Git bisect")
+        }
     }
 }
 
