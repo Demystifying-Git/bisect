@@ -54,7 +54,7 @@ struct ContentView: View {
                 Text("Info")
                 Image(systemName: "info.circle")
             }.tag(1)
-        }
+        }.tint(.init(uiColor: .systemGreen))
         
     }
 }
